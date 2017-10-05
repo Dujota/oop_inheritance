@@ -15,8 +15,8 @@ class MathGenius < Multilinguist #inherit the multilinguist class
 
   def report_total(num_list)
     sum = 0
-    self.each { |num_in_list| sum += num_in_list  }
-    self.say_in_local_language("The sum of the numbers is #{sum}")
+    num_list.each { |num_in_list| sum += num_in_list  }
+    self.say_in_local_language("The total is #{sum}")
   end
 end
 
