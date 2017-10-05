@@ -58,6 +58,6 @@ puts my_quotes.view_quotes
 puts '-'*40
 puts my_quotes.random_quote
 puts '-'*40
-my_quotes.travel_to('India')
+my_quotes.travel_to(' India')
 puts my_quotes.random_quote
 puts '-'*40
