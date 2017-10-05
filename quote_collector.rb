@@ -52,4 +52,5 @@ puts my_quotes.inspect
 puts my_quotes.view_quotes.inspect
 puts my_quotes.add_new("I like to party!")
 puts my_quotes.random_quote
-puts my_quotes.travel_to
+puts my_quotes.travel_to('India')
+puts my_quotes.random_quote
