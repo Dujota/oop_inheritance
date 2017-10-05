@@ -49,8 +49,15 @@ end
 my_quotes = QuoteCollector.new
 
 puts my_quotes.inspect
+puts '-'*40
 puts my_quotes.view_quotes.inspect
+puts '-'*40
 puts my_quotes.add_new("I like to party!")
+puts '-'*40
+puts my_quotes.view_quotes
+puts '-'*40
 puts my_quotes.random_quote
-puts my_quotes.travel_to('India')
+puts '-'*40
+my_quotes.travel_to('India')
 puts my_quotes.random_quote
+puts '-'*40
