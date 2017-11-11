@@ -5,7 +5,7 @@ require 'json'
 # This class represents a world traveller who knows what languages are spoken in each country
 # around the world and can cobble together a sentence in most of them (but not very well)
 class Multilinguist
-
+  attr_accessor :current_lang
   TRANSLTR_BASE_URL = "http://bitmakertranslate.herokuapp.com"
   COUNTRIES_BASE_URL = "https://restcountries.eu/rest/v2/name"
   #{name}?fullText=true
